@@ -1,0 +1,49 @@
+.bannerPrimary {
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    color: white;
+    display: flex;
+    background-color: #593d88;
+}
+
+.container > .reduxLogoTitle {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container > p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container > .buttonTitle {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.secondButton {
+    border: solid;
+    border-radius: calc(0.4rem * 1);
+    border-color: white;
+    text-decoration: none;
+    background-color: white;
+    padding: 7px 30px;
+    font-size: calc(.875rem*1.35);
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    transition-timing-function: cubic-bezier(0.08, 0.52, 0.52, 1);
+    transition-duration: 200ms;
+    transition-property: color ;
+    
+}
+
+.secondButton:hover {
+    color: #ba8fff;
+}
